@@ -1,0 +1,6 @@
+content = input("Enter a string: ")
+len = len(content)
+print("")
+print(content.lower())
+print(content.upper())
+print(f"{len} characters")
