@@ -1,19 +1,6 @@
-def common_members(list1, list2):
-    if len(list1) == 0 or len(list2) == 0:
-        return False
-    
-    for item in list1:
-        if item in list2:
-            return True
-    
-    return False
-
-def main():
-    list1 = []
-    list2 = []
-
-    result = common_members(list1, list2)
-    print(result)
-
-if __name__ == "__main__":
-    main()
+big_country = ["India", 1626037127260]
+small_country = ["Tuvalu", 12119]
+small_country = big_country
+small_country[1] = 12222
+print(f"The population of the small country is {small_country[1]}")
+print(f"The population of {big_country[0]} is {big_country[1]}")
